@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    height: 18em;
+    padding: 2.5em;
+    background-image: url("/assets/imgs/encabezado.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 8em;
+}
+
+header p {
+    font-size: 3em;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5em;
+}
+
+section h2 {
+    font-size: 3em;
+}
+
+section p {
+    font-size: 1.5em;
+}
+
+section td {
+    padding: 1.5em;
+}
+
+.imagen {
+    width: 30%;
+    height: 20em;
+}
+
+.descripcion {
+    width: 20%;
+    height: 20em;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid 2px rgb(65, 105, 225, 0.7);
+}
+
+.bajar {
+    object-position: bottom;
+}
+
+.izquierda {
+    object-position: left;
+}
+
+.derecha {
+    object-position: right;
+}
+
+footer {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: wheat;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
